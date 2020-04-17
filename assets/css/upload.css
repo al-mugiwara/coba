@@ -1,0 +1,42 @@
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+}
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
+#formUpload{
+	border:2px solid #ccc;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	margin:0;
+	padding:5px;
+	min-height:150px;
+	width:200px;
+	/*text-align:center;
+	line-height:100px*/
+}
+#formUpload.hover{
+	border-color:#3cf;
+}
+#formUpload img{
+	height:auto;
+	width:100%;
+}
+#formProgress{padding:10px;}
